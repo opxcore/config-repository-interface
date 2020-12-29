@@ -21,15 +21,15 @@ interface ConfigRepositoryInterface
      *
      * @return  bool
      */
-    public function load(&$config, $profile = null, $overrides = null): bool;
+    public function load(array &$config, $profile = null, $overrides = null): bool;
 
     /**
      * Save config.
      *
      * @param array $config
-     * @param string $profile
+     * @param null $profile
      *
      * @return  bool
      */
-    public function save($config, $profile = null): bool;
+    public function save(array $config, $profile = null): bool;
 }
