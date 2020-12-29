@@ -1,0 +1,28 @@
+{
+  "name": "opxcore/config-repository-interface",
+  "description": "The OpxCore config repository interface.",
+  "keywords": [
+    "opxcore",
+    "config",
+    "repository",
+    "interface"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\Config\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

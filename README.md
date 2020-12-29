@@ -1,1 +1,1 @@
-# config-repository-interface
+# Interface for config repository
