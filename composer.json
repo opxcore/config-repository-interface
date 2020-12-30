@@ -9,12 +9,17 @@
   ],
   "license": "MIT",
   "type": "library",
+  "homepage": "https://opxcms.com",
   "authors": [
     {
       "name": "Lozovoy Vyacheslav",
       "email": "opxcore@gmail.com"
     }
   ],
+  "support": {
+    "issues": "https://github.com/opxcore/config-repository-interface/issues",
+    "source": "https://github.com/opxcore/config-repository-interface"
+  },
   "require": {
     "php": "^7.4"
   },
