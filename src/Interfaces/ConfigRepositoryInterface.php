@@ -10,6 +10,8 @@
 
 namespace OpxCore\Config\Interfaces;
 
+use OpxCore\Config\Exceptions\ConfigRepositoryException;
+
 interface ConfigRepositoryInterface
 {
     /**
@@ -20,6 +22,8 @@ interface ConfigRepositoryInterface
      * @param string|null $overrides
      *
      * @return  bool
+     *
+     * @throws  ConfigRepositoryException
      */
     public function load(array &$config, $profile = null, $overrides = null): bool;
 
@@ -30,6 +34,8 @@ interface ConfigRepositoryInterface
      * @param null $profile
      *
      * @return  bool
+     *
+     * @throws  ConfigRepositoryException
      */
     public function save(array $config, $profile = null): bool;
 }
